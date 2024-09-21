@@ -22,6 +22,6 @@ subprojects {
 
     dependencies {
         detektPlugins("$detektFormattingModule:$detektFormattingVersion")
-        implementation(kotestBundle)
+        testImplementation(kotestBundle)
     }
 }
